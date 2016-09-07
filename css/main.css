@@ -1,0 +1,97 @@
+body{
+  background-image: url("http://i63.tinypic.com/nno5sj.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+a:active{
+  text-decoration: none;
+  color: #fff;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.main-area{
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 500px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 30px;
+}
+
+.main-area h1{
+  text-align: center;
+}
+
+input[type=text]{
+  position: relative;
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  font-size: 16px;
+  background-color: rgba(0,0,0,0);
+  background-image: url('http://www.freeiconspng.com/uploads/search-icon-png-29.png');
+  background-size: 30px 23px;
+  background-position: 5px 11px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus{
+  width:100%;
+  border-radius: 15px;
+  outline: none;
+}
+
+.results {
+  display: none;
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 30px;
+}
+
+.results:hover{
+  background-color: rgba(0,0,0,0.8);
+}
+
+.footer{
+  margin-top: 5px;
+  text-align:center;
+}
+
+@media only screen and (max-width: 600px){
+  
+  body{
+    background-size: auto;
+  }
+  .main-area{
+    width:300px;
+  }
+}
