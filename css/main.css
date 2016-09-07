@@ -1,3 +1,7 @@
+html, body{
+min-height: 100vh;
+}
+
 body{
   background-image: url("http://i63.tinypic.com/nno5sj.jpg");
   background-position: center;
